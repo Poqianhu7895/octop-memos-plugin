@@ -1,0 +1,10 @@
+id: memos-memory
+version: 0.1.0
+name: MemOS 记忆
+description: 只读访问本机 MemOS 长期记忆（trace/policy/world model/skill），三层检索
+icon: icon.svg
+group: productivity
+kind: tool
+entry: main.py
+requires:
+  - httpx>=0.27
